@@ -1,0 +1,91 @@
+section {
+    width: 1980px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+#container {
+    width: 1900px;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    max-width: 5.55%;
+    max-height: 5.55%;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 1px;
+    background-color: lightpink;
+
+}
+
+.box.empty {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.sign {
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.number {
+    float: right;
+    font-size: 35%;
+
+
+}
+
+.details {
+    font-size: 45%;
+    right: 1px;
+}
+
+.box:hover {
+    transform: scale(2);
+}
+
+.metals {
+    background-color: greenyellow;
+}
+
+.metaloid {
+    background-color: seagreen;
+}
+
+.metapost {
+    background-color: lightgreen;
+}
+
+.metalca {
+    background-color: orangered;
+}
+
+.metaearth {
+    background-color: yellow;
+}
+
+.gas {
+    background-color: lightskyblue;
+}
+
+.unknown {
+    background-color: lightgrey;
+}
+
+.Lantanide {
+    background-color: darkorange;
+}
+
+.Actinide {
+    background-color: darkviolet;
+}
